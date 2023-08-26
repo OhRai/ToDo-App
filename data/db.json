@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "title": "Get Groceries",
+      "description": "apples, banans, eetc.,",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "title": "Study for school",
+      "description": "2 hours",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "title": "tomato",
+      "description": "tomato",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "title": "something",
+      "description": "a todo",
+      "completed": false,
+      "id": 4
+    }
+  ]
+}
