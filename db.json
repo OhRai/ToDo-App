@@ -3,7 +3,7 @@
     {
       "title": "Get Groceries",
       "description": "apples, banans, eetc.,",
-      "completed": true,
+      "completed": false,
       "id": 1
     },
     {
@@ -27,7 +27,7 @@
     {
       "title": "asdf",
       "description": "asdf",
-      "completed": true,
+      "completed": false,
       "id": 5
     },
     {

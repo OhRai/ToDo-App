@@ -14,7 +14,7 @@ const Create = () => {
 
         setIsPending(true);
 
-        fetch('http://localhost:8000/todos', {
+        fetch('https://my-json-server.typicode.com/OhRai/ToDo-App/todos', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(todo)
