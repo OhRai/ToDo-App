@@ -6,7 +6,7 @@ const TodoMenu = () => {
 
     return (  
         <div className='flex-col text-center bg-background p-8 rounded-2xl w-full max-w-md'>
-            <h2 className="text-3xl font-light mb-4">ToDo List</h2>
+            <h2 className="text-3xl font-light mb-4">Todo List</h2>
             {todos && <TodoList todos={todos}/> }
         </div>
     );
