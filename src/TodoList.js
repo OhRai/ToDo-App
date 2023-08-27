@@ -6,7 +6,7 @@ const TodoList = ({todos}) => {
     const handleClick = (todo) => {
         const updatedTodo = { ...todo, completed: !todo.completed };
 
-        fetch('https://my-json-server.typicode.com/OhRai/ToDo-App/todos' + todo.id, {
+        fetch('https://todo-json.vercel.app/api/todos' + todo.id, {
             method: 'PUT',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(updatedTodo)
@@ -19,7 +19,7 @@ const TodoList = ({todos}) => {
     }
 
     const handleDelete = (todo) => {
-        fetch('https://my-json-server.typicode.com/OhRai/ToDo-App/todos' + todo.id, {
+        fetch('https://todo-json.vercel.app/api/todos' + todo.id, {
             method: 'DELETE'
         })
         .then(() => {

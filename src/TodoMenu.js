@@ -2,7 +2,7 @@ import TodoList from "./TodoList";
 import useFetch from "./useFetch";
 
 const TodoMenu = () => {  
-    const { data: todos, error } = useFetch('https://my-json-server.typicode.com/OhRai/ToDo-App/todos')
+    const { data: todos, error } = useFetch('https://todo-json.vercel.app/api/todos')
 
     return (  
         <div className='flex-col text-center bg-background p-8 rounded-2xl w-full max-w-md'>
